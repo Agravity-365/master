@@ -1,8 +1,9 @@
 body{
-    scrollbar-base-color: #07cb79;
+    scrollbar-base-color: #76e9d0;
+    scrollbar-base-color: #205060;
 }
 .form-control:focus{
-    border-color: #07cb79;
+    border-color: #205060;
 }
 ::selection, 
 .btn-primary,
@@ -18,10 +19,10 @@ body{
 .toolbar .btn:focus,
 .toast
 {
-    background: #07cb79;
+    background-color: #205060;
 }
 ::-webkit-scrollbar-thumb:vertical{
-       background: #07cb79;
+    background: #205060;
 }
 a:focus, a:hover,
 input, textarea,
@@ -30,7 +31,15 @@ input, textarea,
 .copyright p a,
 .desc-title a,
 .hvr-shutter-out-horizontal:hover, .hvr-shutter-out-horizontal:focus, .hvr-shutter-out-horizontal:active,
-.profile-pic:hover .info-position,
+.profile-pic:hover .info-position
+span
+{
+    color: #76e9d0;
+}
+input:focus, textarea:focus{
+    border-bottom: 1px solid #76e9d0 !important;
+}
+
 .timeline-container .timeline-block .timeline-img i,
 figure.effect-winston a:hover,
 figure.effect-winston a:focus,
@@ -43,40 +52,41 @@ figure.effect-winston a:focus,
 .comments-counter a,
 a.goto-top span
 {
-    color: #07cb79;
+    color: #205060;
 }
 input:focus, textarea:focus{
-    border-bottom: 1px solid #07cb79 !important;
+    border-bottom: 1px solid #205060 !important;
 }
+
+
 .btn-primary,
 .btn-primary:hover,
 .profile-img,
 .widget-tags li a:hover{
-    border-color: #07cb79;
+    border-color: #205060;
 }
 .nav-sidebar > .active > a, .nav-sidebar > .active > a:focus, .nav-sidebar > .active > a:hover, .nav-sidebar > li > a:hover ,.nav-sidebar > .active > a, .nav-sidebar > .active > a:hover, .nav-sidebar > .active > a:focus{
-    box-shadow: 15px 0px 0px 0px #07cb79 inset !important;
+    box-shadow: 15px 0px 0px 0px #76e9d0 inset !important;
 }
 .section-title h4{
-    border: 2px solid #07cb79;
+    border: 2px solid #205060;
 }
 @media(min-width:1170px){
     .timeline-container .timeline-block .timeline-content:before{
-        border-left-color:#07cb79;
+        border-left-color:#205060;
     }
 }
 @media(min-width:1170px){
     .timeline-container .timeline-block:nth-child(even) .timeline-content::before{
-        border-right-color:#07cb79;
+        border-right-color:#205060;
     }
 }
-
-.bar, .fill {
-    border: 0.08em solid #07cb79;
+.bar,.fill {
+  border: 0.08em solid #205060 !important;
 }
 .c100:hover > span {
-    color: #07cb79;
+  color: #205060 !important;
 }
 .langugae-skills:hover .skill-name {
-    color: #07cb79 !important;
+  color: #205060 !important;
 }
