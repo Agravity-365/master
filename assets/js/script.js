@@ -94,9 +94,13 @@ $('.sidebar a').on("click", function (e) {
 
 $("#typed").typed({
     stringsElement: $('#typed-strings'),
-    typeSpeed: 20,
-    backDelay: 500,
-    loop: false,
+    typeSpeed: 50,
+    backDelay: 50,
+  
+    
+   
+   
+    loop: true,
     contentType: 'html',
     loopCount: false,
     callback: function () {
@@ -110,6 +114,48 @@ $("#typed").typed({
 
 $(".reset").on("click", function (e) {
     $("#typed").typed('reset');
+});
+
+$("#typed2").typed({
+    stringsElement: $('#typed-strings2'),
+    typeSpeed: 50,
+    backDelay: 50,
+   // startDelay: 5150, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
+    loop: true,
+    contentType: 'html',
+    loopCount: false,
+    callback: function () {
+        foo();
+    },
+    resetCallback: function () {
+        newTyped();
+    }
+});
+
+
+$(".reset").on("click", function (e) {
+    $("#typed2").typed('reset');
+});
+
+
+$("#typed3").typed({
+    stringsElement: $('#typed-strings3'),
+    typeSpeed: 50,
+    backDelay: 50,
+    loop: true,
+    contentType: 'html',
+    loopCount: false,
+    callback: function () {
+        foo();
+    },
+    resetCallback: function () {
+        newTyped();
+    }
+});
+
+
+$(".reset").on("click", function (e) {
+    $("#typed3").typed('reset');
 });
 
 
