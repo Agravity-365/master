@@ -159,6 +159,69 @@ $(".reset").on("click", function (e) {
 });
 
 
+$("#typed4").typed({
+    stringsElement: $('#typed-strings4'),
+    typeSpeed: 50,
+    backDelay: 50,
+    loop: true,
+    contentType: 'html',
+    loopCount: false,
+    callback: function () {
+        foo();
+    },
+    resetCallback: function () {
+        newTyped();
+    }
+});
+
+
+$(".reset").on("click", function (e) {
+    $("#typed4").typed('reset');
+});
+
+
+$("#typed5").typed({
+    stringsElement: $('#typed-strings5'),
+    typeSpeed: 50,
+    backDelay: 50,
+    loop: true,
+    contentType: 'html',
+    loopCount: false,
+    callback: function () {
+        foo();
+    },
+    resetCallback: function () {
+        newTyped();
+    }
+});
+
+
+$(".reset").on("click", function (e) {
+    $("#typed5").typed('reset');
+});
+
+
+$("#typed6").typed({
+    stringsElement: $('#typed-strings6'),
+    typeSpeed: 50,
+    backDelay: 50,
+    loop: true,
+    contentType: 'html',
+    loopCount: false,
+    callback: function () {
+        foo();
+    },
+    resetCallback: function () {
+        newTyped();
+    }
+});
+
+
+$(".reset").on("click", function (e) {
+    $("#typed6").typed('reset');
+});
+
+
 
 function newTyped() {
 }
