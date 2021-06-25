@@ -94,12 +94,9 @@ $('.sidebar a').on("click", function (e) {
 
 $("#typed").typed({
     stringsElement: $('#typed-strings'),
-    typeSpeed: 50,
-    backDelay: 50,
-  
-    
-   
-   
+    typeSpeed: 180,
+    cursorChar: '<span style="font-size: 40px;">_</span>',
+    backDelay: 100,
     loop: true,
     contentType: 'html',
     loopCount: false,
@@ -118,8 +115,9 @@ $(".reset").on("click", function (e) {
 
 $("#typed2").typed({
     stringsElement: $('#typed-strings2'),
-    typeSpeed: 50,
-    backDelay: 50,
+    typeSpeed: 180,
+    cursorChar: '<span style="font-size: 40px;">_</span>',
+    backDelay: 100,
    // startDelay: 5150, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
     loop: true,
     contentType: 'html',
@@ -140,8 +138,9 @@ $(".reset").on("click", function (e) {
 
 $("#typed3").typed({
     stringsElement: $('#typed-strings3'),
-    typeSpeed: 50,
-    backDelay: 50,
+    typeSpeed: 180,
+    cursorChar: '<span style="font-size: 40px;">_</span>',
+    backDelay: 100,
     loop: true,
     contentType: 'html',
     loopCount: false,
@@ -161,8 +160,9 @@ $(".reset").on("click", function (e) {
 
 $("#typed4").typed({
     stringsElement: $('#typed-strings4'),
-    typeSpeed: 50,
-    backDelay: 50,
+    typeSpeed: 180,
+    cursorChar: '<span style="font-size: 40px;">_</span>',
+    backDelay: 100,
     loop: true,
     contentType: 'html',
     loopCount: false,
@@ -182,8 +182,9 @@ $(".reset").on("click", function (e) {
 
 $("#typed5").typed({
     stringsElement: $('#typed-strings5'),
-    typeSpeed: 50,
-    backDelay: 50,
+    typeSpeed: 180,
+    cursorChar: '<span style="font-size: 40px;">_</span>',
+    backDelay: 100,
     loop: true,
     contentType: 'html',
     loopCount: false,
@@ -203,8 +204,9 @@ $(".reset").on("click", function (e) {
 
 $("#typed6").typed({
     stringsElement: $('#typed-strings6'),
-    typeSpeed: 50,
-    backDelay: 50,
+    typeSpeed: 180,
+    cursorChar: '<span style="font-size: 40px;">_</span>',
+    backDelay: 100,
     loop: true,
     contentType: 'html',
     loopCount: false,
