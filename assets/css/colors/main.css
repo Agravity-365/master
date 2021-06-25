@@ -9,7 +9,7 @@ body{
 .btn-primary,
 .hvr-shutter-out-horizontal,
 .profile-pic:hover .profile-img,
-.info-icon,
+
 .timeline-container .timeline-block .timeline-content h2,
 .contact-block > i,
 .gen,
@@ -20,6 +20,14 @@ body{
 .toast
 {
     background-color: #205060;
+}
+
+.info-icon {
+    background-color: #22b7e9;
+}
+
+.info-icon img{
+   top: 0px;
 }
 ::-webkit-scrollbar-thumb:vertical{
     background: #205060;

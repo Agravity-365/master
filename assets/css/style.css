@@ -313,6 +313,7 @@ button:focus{
     margin: 30px 0;
 }
 
+
 .typed-cursor{
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
@@ -499,6 +500,16 @@ button:focus{
     -moz-osx-font-smoothing: grayscale;
     position: relative;
 }
+
+.hvr-trim img{
+    position: relative;   
+    top: -62px;
+    height: 60px;
+    width: 57px;
+}
+
+
+
 .hvr-trim:before {
     content: '';
     position: absolute;
@@ -526,6 +537,7 @@ button:focus{
     display: block;
     margin-bottom: 5px;
 }
+
 .social-profiles{
     margin-bottom: 30px;
 }
