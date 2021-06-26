@@ -17,5 +17,10 @@ function ShowValue(cadenac) {
         
         document.getElementById("planselected").innerHTML = "<center><b> Seleccionaste el plan: " + cadenac +"</b><center>";
             break;
+
+            case "app":
+        
+        document.getElementById("planselected").innerHTML = "<center><b> Seleccionaste el plan: " + cadenac +"</b><center>";
+            break;
     }
 }
