@@ -24,3 +24,45 @@ function ShowValue(cadenac) {
             break;
     }
 }
+
+
+
+ 
+//$(document).ready(function(){
+  //  $("#testimonial-slider").owlCarousel({
+   //     navigation : true,
+     //   items:3,
+    //    itemsDesktop:[1000,2],
+    //    itemsDesktopSmall:[979,2],
+     //   itemsTablet:[767,1],
+     //   pagination: true,
+    //    navigation : true,
+     //   autoPlay:true
+   // });
+//});
+
+
+$(document).ready(function() {
+ 
+    $("#owl-demo").owlCarousel({
+      navigation : false,
+      autoPlay:true,
+
+          //Basic Speeds
+    slideSpeed : 20,
+    paginationSpeed : 100,
+    rewindSpeed : 150,
+
+    //Pagination
+    pagination : true,
+    paginationNumbers: true,
+ 
+     //Lazy load
+
+     lazyFollow : true,
+   
+ 
+
+    });
+   
+  });
